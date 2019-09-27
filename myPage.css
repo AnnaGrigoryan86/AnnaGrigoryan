@@ -1,4 +1,63 @@
-body{
-background-color: red;
+body {
+    background-image: url(background-image.jpg);
+    background-repeat: repeat-y;
+    background-size: auto;
+    margin: 0;
+}
 
+h1 {
+    font-style: oblique;
+    text-align: center;
+}
+
+pre {
+    float: right;
+    text-align: end;
+}
+
+.pagehead {
+    width: inherit;
+    height: 80px;
+    color: #cc0066;
+    text-align: center;
+    font-size: 4em;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.photo {
+    border: 0px dashed;
+    width: 160px;
+    height: 200px;
+    border-radius: 20px;
+    background: url(myPhoto.jpg) 430px 510px;
+    float: right;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    float: left;
+    text-align: center;
+}
+
+.topnav a:hover {
+    background-color: lightgrey;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: darkred;
+    color: white;
+}
+
+.project {
+    margin: 3%;
 }
